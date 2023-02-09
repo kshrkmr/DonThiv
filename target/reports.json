@@ -1,0 +1,175 @@
+[
+  {
+    "line": 20,
+    "elements": [
+      {
+        "line": 22,
+        "name": "common function",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 437203700,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "launch the browser",
+            "match": {
+              "location": "Cucumber.launch_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//a[@class\u003d\u0027close\u0027]\"}\n  (Session info: chrome\u003d109.0.5414.120)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: \u00274.7.2\u0027, revision: \u00274d4020c3b7\u0027\nSystem info: os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002717.0.5\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [d4297dda3c0d1e043ffbc23c1fcbe17d, findElement {using\u003dxpath, value\u003d//a[@class\u003d\u0027close\u0027]}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\\Users\\ELCOT\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53332}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53332/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: d4297dda3c0d1e043ffbc23c1fcbe17d\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:535)\r\n\tat org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)\r\n\tat org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:351)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:343)\r\n\tat org.cucumber.Cucumber.pass_the_url(Cucumber.java:37)\r\n\tat ✽.pass the url(D:/Eclipse2022-22/cucumber/src/test/resources/Stepdefinition.feature:24)\r\n",
+              "duration": 1015536900,
+              "status": "failed"
+            },
+            "line": 24,
+            "name": "pass the url",
+            "match": {
+              "location": "Cucumber.pass_the_url()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 64217117700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeLaunching()"
+            }
+          }
+        ],
+        "line": 26,
+        "name": "NEET.Results",
+        "description": "",
+        "id": "com.byju.study-materials.stepdefinition;neet.results",
+        "after": [
+          {
+            "result": {
+              "duration": 1070900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.quit()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 33700,
+              "status": "skipped"
+            },
+            "line": 27,
+            "name": "user click on the Study_Materials",
+            "match": {
+              "location": "Cucumber.user_click_on_the_Study_Materials()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 26300,
+              "status": "skipped"
+            },
+            "line": 28,
+            "name": "user click on the NEET",
+            "match": {
+              "location": "Cucumber.user_click_on_the_NEET()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 16100,
+              "status": "skipped"
+            },
+            "line": 29,
+            "name": "user click on the Results",
+            "match": {
+              "location": "Cucumber.user_click_on_the_Results()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 15400,
+              "status": "skipped"
+            },
+            "line": 30,
+            "name": "choose exam",
+            "match": {
+              "location": "Cucumber.choose_exam()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 15200,
+              "status": "skipped"
+            },
+            "line": 31,
+            "name": "select state",
+            "match": {
+              "location": "Cucumber.select_state()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 25100,
+              "status": "skipped"
+            },
+            "line": 32,
+            "name": "select year",
+            "match": {
+              "location": "Cucumber.select_year()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 15900,
+              "status": "skipped"
+            },
+            "line": 33,
+            "name": "click apply",
+            "match": {
+              "location": "Cucumber.click_apply()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 16000,
+              "status": "skipped"
+            },
+            "line": 34,
+            "name": "search bar",
+            "match": {
+              "location": "Cucumber.search_bar()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "com.BYJU.Study_Materials.stepdefinition",
+    "description": "",
+    "id": "com.byju.study-materials.stepdefinition",
+    "keyword": "Feature",
+    "uri": "D:/Eclipse2022-22/cucumber/src/test/resources/Stepdefinition.feature",
+    "tags": []
+  }
+]
